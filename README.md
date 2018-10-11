@@ -14,6 +14,7 @@
     [self.view addSubview:self.animationView];
     [self.animationView reloadAnimationView];
 }
+
 然后实现数据源代理方法
 // MARK: --CustomViewDataSource--
 - (NSInteger)numberOfAnimationWithView:(CustomView *)view{
